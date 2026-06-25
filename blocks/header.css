@@ -2,6 +2,7 @@
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
+  padding: 30px 80px 40px;
   background-color: #ffffff;
   background-image: url("../images/background_header.svg");
   background-repeat: no-repeat;
@@ -10,17 +11,15 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .header__title {
   max-width: 709px;
-  margin: 183px 0 0 80px;
+  margin: 183px 0 0;
   font-size: 58px;
   line-height: 72px;
   font-weight: 500;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
   letter-spacing: -1px;
 }
 
@@ -30,18 +29,14 @@
   font-style: italic;
   font-family: "Noto Serif", "Times new Roman", serif;
   font-weight: normal;
-  font-size: 58px;
-  line-height: 72px;
 }
 
 .header__description {
   max-width: 683px;
-  margin: 28px 0 0 80px;
+  margin: 28px 0 0;
   font-size: 20px;
   line-height: 30px;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
 }
 
 .header__image {
@@ -56,17 +51,10 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-bottom: 40px;
 }
 
 .header__paragraph {
   margin: 0;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
   color: #838383;
 }
