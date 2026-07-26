@@ -15,6 +15,6 @@ Posicionamento CSS
 Google Fonts (Inter)
 Normalize.css
 
-**Planos de Melhorias**
+**GitHub Pages**
 
-Sem melhorias pensadas pois falta experiência na área.
+https://brizollamatheus.github.io/web_project_coffeeshop/
